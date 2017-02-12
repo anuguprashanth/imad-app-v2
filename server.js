@@ -13,7 +13,7 @@ app.get('/a',function(req,res){
 res.send('this will be sending');
 });
 
-app.get('/article',function(req,res){
+app.get('/b',function(req,res){
 res.sendFile(path.join(__dirname, 'ui', 'article.html'));
 });
 
