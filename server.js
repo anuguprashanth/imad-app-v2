@@ -20,7 +20,7 @@ app.get('/ui/style.css', function (req, res) {
 
 
 app.get('/ui/article.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article.htm'));
+  res.sendFile(path.join(__dirname, 'ui', 'article.html'));
 });
 
 
